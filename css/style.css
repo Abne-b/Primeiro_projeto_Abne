@@ -1,0 +1,104 @@
+/* Link de importação de fontes para o site */
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+/*Reseta a margem de todo o conteúdo */
+html * {
+    margin: 0;
+}
+body {
+    margin: 0;
+    /* centralizar textos */
+    text-align: center;
+    /*Imagem de fundo 1º a minha e 2º a da aula*/
+    background-image: url("../img/ryunosuke-kikuno--OdpphNBEAw-unsplash.jpg");
+    /*background-image: url(https://bit.ly/3g7ht7X);*/
+    /*Remover repetição*/
+    background-repeat: no-repeat;
+    /*Posicionamento da imagem*/
+    background-position: center;
+    /*altura do body*/
+    /* height: 100vh; */
+    /*Tamanho da Imagem*/
+    background-size: 100%; 
+    /*Fixar a imagem de fundo*/
+    /* background-attachment: fixed; */
+    /*cor de fundo*/
+    background-color: #000000;
+        
+}
+
+
+#cabecalho {
+    /* Define a altura e largura do container */
+    height: auto;
+    width: 90%;
+    /*Cor de fundo do container */
+    background-color: #000000;
+    /* Cor e tipo de fonte do texto */
+    font-family: 'Viaoda Libre', cursive;
+    color: #ffffff;
+    /* Justify e display estão movendo o conteúdo para o início da linha */
+    justify-content: flex-start;
+    display: flex;
+   /* Arredonda a borda do container */
+    border-radius: 0.25rem;
+    /* align está posicionando o centro nos objetos na mesma linha */
+    align-items: center;
+    align-content: center;
+    
+}
+
+#conteudo {
+    /* Define a altura e largura do container */
+    height: auto;
+    width: 80%;
+    /*Cor de fundo do container */
+    background-color: #12180065;
+    /* Cor do texto */
+    color: #ffffff;    
+    /* Espaçamento para as margens e arredondamento das bordas */
+    margin: 5px 30px;    
+    border-radius: 0.25rem;
+    /* position: sticky; */
+    text-align: justify;
+    padding:0px 15px;
+    }
+
+.titulos {
+    font-family: 'Viaoda Libre', cursive;
+    color: #e0c39c;
+    font-size: 24pt;
+}
+
+.catHeader {
+    height: 30px;        
+}
+
+#catIconH2 {
+    height: 20px;
+}
+
+#catIconH3 {
+    height: 15px;
+}
+
+#catIconH5 {
+    height: 20px;
+}
+
+#instaIcon {
+    height: 20px;
+}
+
+#rodape {
+    /* Define a altura e largura do container */
+    height: 10%;
+    width: 90%;
+    /* Cor de fundo */
+    background-color: #000000;
+    /* Cor das lestras */
+    color: #ffffff;
+    /* Arredondamento da borda */
+    border-radius: 0.25rem;
+}
+
